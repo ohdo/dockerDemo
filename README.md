@@ -39,7 +39,7 @@ docker build -t mihuiyi-demo .
 ### create container and run
 
 ```
-docker run --name dockerDome -p 80:80 mihuiyi-demo:latest
+docker run --name mihuiyi-demo -p 80:80 mihuiyi-demo:latest
 ```
 
 可以通过地址 localhost 访问
