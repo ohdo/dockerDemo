@@ -33,13 +33,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### create docker image
 
 ```
-docker build -t dockerdemo .
+docker build -t mihuiyi-demo .
 ```
 
 ### create container and run
 
 ```
-docker run --name dockerDome -p 80:80 dockerdemo:latest
+docker run --name dockerDome -p 80:80 mihuiyi-demo:latest
 ```
 
 可以通过地址 localhost 访问
